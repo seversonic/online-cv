@@ -79,13 +79,9 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-      Self directed self starter and expert problem solver. Passionate about learning, creating, sharing, and most importantly: about the devices that make the world work! 
-      Experienced with process control, power generation, warehouse automation, R&D, product development and networking. 
-      Currently exploring Object Orientated programming (industrially), Docker, Home Automation, Cybersecurity, TwinCAT, Codesys and contributing to open source learning initiatives and software. Always tinkering at home and work, 
-      applying what I learn, and helping others grow. 
-      Highly experienced Control Systems and Automation Specialist with over a decade of expertise in the design, implementation, and support of advanced automation systems in research laboratories, tech startups, and industrial settings. 
-      Practical, hands-on skills in 3D printing, Python scripting, and mechanical fabrication (including woodworking/carpentry) developed through years of being a home hobbyist. 
-      Proud member of APEGA. 
+      Controls engineer with 13 years across O&G process facilities, warehouse robotics, and OEM machine building. I've commissioned large DeltaV and Rockwell systems on O&G assets, built Beckhoff-based ASRS platforms from design through customer deployment, and spent the last two years modernizing 30-year-old research equipment that contractors kept giving up on.
+      I write more code than most controls engineers — Python, C#, PowerShell, VBA — and I maintain TwinCAT Libre, an open source library project for Beckhoff TwinCAT 3. I'm interested in the overlap between traditional industrial automation and modern software practices: Docker, IIoT architectures, OT security.
+      Currently based in Calgary. Looking for complex project work, comissioning and startup contracts, ideally international. 
 
 education:
   title: Education
@@ -110,13 +106,12 @@ experiences:
     time: 2024 - Present
     company: Nova Chemicals Inc., Calgary, AB
     details: |
-      Providing maintenance and engineering support for a variety of R&D process equipment and industrial machinery and building automation systems
-        - Proposed, designed, and implemented control system modernization projects to upgrade plastics R&D laboratory equipment (30+ years in service)  
-        - Automated complex measurement workflows on equipment (Mitutoyo CMM), turning a manual bench process into an automated procedure using VBA, achieving 90% automation and significantly increasing throughput and consistency 
-        - Sourcing and managing external contractors for custom software development and support 
-        - Created a Python utility to interact with a PLC to read/write thousands of tags
-        - Interpreting and applying machinery safety standards (CSA Z432:23, ISO 13849) to bring outdated extrusion machinery up to modern safety standards
-        - Developed comprehensive control narratives and logic architecture for bespoke, in-house laboratory equipment used in complex experiments
+        - Leading control system modernization projects on polyethylene R&D equipment up to 30 years old — the same work a series of external contractors failed to deliver consistently before a permanent hire was brought in
+        - Automated a complex dimensional measurement workflow on a Mitutoyo CMM using VBA, converting a fully manual bench process to 90% automated — significantly increasing throughput and eliminating measurement inconsistency
+        - Developed a Python utility for bulk PLC tag read/write operations across thousands of data points, enabling rapid configuration and validation during new skid commissioning
+        - Managed external LabVIEW contractors tasked with rewriting legacy instrument control software — defining scope, reviewing deliverables, and integrating outputs into the broader control architecture
+        - Applied machinery safety standards (CSA Z432, ISO 13849) to bring legacy extrusion equipment up to current compliance, including hazard assessments, safety-rated circuit design, and control narrative development
+
         
   - role: Automation Specialist
     time: 2022 - 2024
@@ -128,43 +123,42 @@ experiences:
         - Designed and deployed an IoT data collection system for data acquisition and analysis
         - Developed software release processes and associated documentation for version management and site deployments
         - Conducted hazard reviews and functional safety assessments to support CE certification for OEM machinery
+        - Designed and commissioned CodeSys and TwinCAT PLC systems for high-speed beverage canning machinery, taking products from concept through to commercial deployment
+        - Built and deployed an IIoT data platform across a 10-site pilot, giving customers real-time fill volume metrics and automated daily production reports — and providing the technical foundation for remote diagnostic access by the support team
+        - Developed C# and PowerShell tooling to automate PLC configuration and data staging during commissioning, reducing manual setup time and eliminating configuration errors across deployments
+        - Designed and tuned motion control profiles for high-speed packaging machinery, optimizing acceleration curves to reduce mechanical shock and extend component life
+        - Led CE certification process including hazard reviews and functional safety assessments for OEM machinery sold into international markets
 
 
   - role: Electrical Specialist
     time: February 2022 - July 2022
     company: Propak Systems Ltd., Airdrie, AB
-    details: |
-      Design and development of specifications for control systems, and power systems for use in industrial processing facilities. 
-        - Interpreting client design specifications
-        - Developing scopes of work packages
-        - Preparing control system specifications and designs  
+    details: | 
+        - Authored control narratives, functional design specifications, and technical bid packages for modular heavy process plants with capital budgets exceeding $500MM
+        - Conducted design reviews for electrical and automation systems against client specifications and Alberta regulatory requirements
+
 
   - role: Control Systems Specialist
     time: January 2019 - February 2022
     company: Attabotics Inc., Calgary, AB
     details: |
-      Designing and supporting control systems for automated storage and retrieval systems. 
-        - Developed fabrication, testing, and commissioning procedures and documentation for PLC-based control systems in the automated warehousing sector
-        - Designed, assembled, programmed, and implemented PC and PLC (Beckhoff, Siemens) control panels and electrical systems for automated storage and retrieval systems
-        - Worked with in house software developers to integrate custom C# software with PLCs and communicate with peripheral devices (RS-232 bar code scanners and power supplies)
-        - Created prototypes for client demonstrations and trade shows; including mechanical and wiring assemblies for custom fixtures and jigs
-        - Led Root Cause Analysis (RCA) for system incidents (crashes, fires), developing and implementing effective remediation plans through programming updates, procedural changes and hardware changes
-        - Actively identified and implemented improvements to machinery safety, addressing compliance concerns
-        - Created custom C# based software utilities to load and configure PLC code 
+        - Designed, programmed, and commissioned Beckhoff TwinCAT and Siemens control systems for a novel autonomous 3D ASRS platform — a product with no established industry precedent — from initial prototype through commercial customer deployments
+        - Identified and proved a firmware defect in a third-party power supply causing intermittent failures every 2–4 days on a subset of deployed machines — an issue with no obvious pattern that required systematic elimination across hardware, software, and communications before isolating the root cause to the vendor's firmware
+        - Built C# utilities to automate PLC code loading and configuration across robot fleets, eliminating manual entry errors and significantly compressing deployment timelines
+        - Integrated PLC systems with custom C# warehouse management software and peripheral devices including RS-232 barcode scanners and managed power supplies
+        - Developed fabrication, testing, and commissioning procedures and documentation for a first-of-kind product as the platform scaled from prototype to production
+
         
   - role: Control Systems Specialist
     time: September 2013 - January 2019
     company: Propak Systems Ltd., Airdrie, AB
     details: |
-      Development and commissioning and startup support for distributed control systems used in energy production facilities.
-        - Programmed and commissioned control systems (PLCs, DCSs, HMIs, servers), primarily with Emerson DeltaV and Rockwell Factorytalk SE (ControlLogix) based systems
-        - Performed end-to-end system integration, interfacing, PLCs, diverse software applications, and external IT networks with the primary plant control system
-        - Managed control system changes via client Management of Change (MOC) processes, ensuring safe implementation and detailed documentation
-        - Building plant control system logic and architecture by interpreting: P&IDs, electrical schematics, civil layouts, process flow diagrams, cause and effect tables, and equipment manuals
-        - Supported clients remotely and on-site for control system issues, training and updates
-        - Troubleshooted mechanical, electrical, process, software, and networking issues on critical plant equipment (MCCs, servers, generators, switchgear, instrumentation, sensors) 
-        - Integrated a wide array of devices using standard communication protocols: Modbus, Ethernet/IP, Profinet, modbus TCP/IP, and OPC into site SCADA systems 
-        - Deployed and configured virtualized server systems (Hyper-V, vshpere(VMWare) and core networking equipment for distributed control systems       
+        - Commissioned three major O&G process facilities end-to-end on DeltaV and Rockwell FactoryTalk — from control narrative development through loop checking, FAT, SAT, and startup support on assets operating at up to 80,000 BPD
+        - Led the planning and execution of a control system upgrade and capacity expansion at an LNG facility — scoping the project, coordinating with operations during a live plant, and delivering the expanded system through to restart
+        - Redesigned a plant fiber optic network after the original engineering design proved unworkable during commissioning — diagnosed the fault, developed a revised architecture, and implemented it under project schedule pressure
+        - Designed and deployed virtualized server environments (Hyper-V, VMware) for high-availability DCS and SCADA platforms on remote facility operations — specifying the architecture and configuring the systems from scratch
+        - Integrated third-party skid packages — boilers, generators, compressors, gas processing equipment — using Modbus, EtherNet/IP, Profinet, and OPC into unified site SCADA systems
+        - Diagnosed and resolved critical failures across MCCs (to 600V) and generator systems (to 4160V) during live plant operations, minimizing unplanned downtime on high-value production assets
 
 certifications:
   title: Certifications
@@ -269,14 +263,6 @@ skills:
   title: Skills &amp; Proficiencies
 
   toolset:
-  - name: Google-fu
-    level: 105%
-
-  - name: Vibe Coding
-    level: 30%
-
-  - name: Actual Coding
-    level: 80%
     
   - name: Microsoft Office 
     level: 95%  
