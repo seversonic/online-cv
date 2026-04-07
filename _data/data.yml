@@ -79,12 +79,15 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-      Controls engineer with 13 years across O&G process facilities, warehouse robotics, and OEM machine building. I've commissioned large DeltaV and Rockwell systems on O&G assets, built Beckhoff-based ASRS platforms from design through customer deployment, and spent the last two years modernizing and maintaining 30-year-old research facilities.
-      
-      I write more code than most controls engineers — Python, C#, PowerShell, VBA — and I maintain TwinCAT Libre, an open source library project for Beckhoff TwinCAT 3. I'm interested in the overlap between traditional industrial automation and modern software practices: Docker, IIoT architectures, OT security.
-      
-      Currently based in Calgary. Looking for complex project work, or comissioning and startup contracts, ideally international. 
+      13 years commissioning and supporting industrial control systems — DCS, PLC, SCADA, OT networks — across oil and gas, chemical research, warehouse robotics, and packaging machinery.
 
+      Most of my project work has been on live industrial assets — commissioning DCS and PLC systems, upgrading controls on facilities that can't afford to stop, and tracking down failures that don't show up consistently enough for anyone else to catch
+      
+      Platforms I use regularly: Rockwell, DeltaV, Beckhoff TwinCAT, Siemens, Ignition.
+      
+      Outside of work: Docker, web development, 3D printing, and whatever rabbit hole I'm currently in.
+
+      Based in Calgary. Open to international project work and consulting engagements.
 education:
   title: Education
   info:
