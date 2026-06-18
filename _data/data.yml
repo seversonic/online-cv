@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: Ryan Severson P.L.(Eng.), CMSE®
-  tagline: Industrial Automation Specialist
+  tagline: Controls Integration & Automation Specialist
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -79,15 +79,13 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-      13 years commissioning and supporting industrial control systems — DCS, PLC, SCADA, OT networks — across oil and gas, chemical research, warehouse robotics, and packaging machinery.
+      13 years commissioning, integrating, and modernizing industrial control systems — DCS, PLC, SCADA, BMS, OT networks — across oil and gas, chemical research, warehouse robotics, and packaging machinery. I work at the seam between mechanical equipment, vendor skids, and master control architecture — making sure cooling loops, refrigeration compressors, fluid distribution, and packaged mechanical plant integrate deterministically, with redundancy and fail-safe behaviour intact, before anything ships to site.
 
-      Most of my project work has been on live industrial assets — commissioning DCS and PLC systems, upgrading controls on facilities that can't afford to stop, and tracking down failures that don't show up consistently enough for anyone else to catch
-      
-      Platforms I use regularly: Rockwell, DeltaV, Beckhoff TwinCAT, Siemens, Ignition.
-      
-      Outside of work: Docker, web development, 3D printing, and whatever rabbit hole I'm currently in.
+      I've spent my career on both sides of the OEM relationship. At Propak I operated as the skid manufacturer *and* the client — building standardized, repeatable PLC architectures for our own modular deployments while pulling third-party packages (boilers, compressors, generators, gas processing) into unified DCS/SCADA. That means I know exactly where vendors cut corners, and how to lock down Modbus TCP/IP and BACnet interface requirements, scrutinize P&IDs, and validate I/O lists long before a skid leaves the shop.
 
-      Based in Calgary. Open to international project work and consulting engagements.
+      Most of my work is on live, mission-critical assets that can't afford to stop — commissioning, capacity expansions, and intermittent failures that don't show up consistently enough for anyone else to catch. Licensed in Alberta (P.L.Eng.) and certified in machine safety (CMSE®), I work end-to-end: control narrative and cause-and-effect through FAT/SAT and startup, on Rockwell, DeltaV, Beckhoff TwinCAT, Siemens, and Ignition.
+
+      Based in Calgary. Open to mission-critical / data-center integration, controls modernization, machine-safety compliance, and international project work.
 education:
   title: Education
   info:
@@ -107,15 +105,17 @@ education:
 experiences:
   title: Experiences
   info:
-  - role: Systems Technician, Instrumentation and Automation
+  - role: Technician, Automation and Instrumentation
     time: 2024 - Present
-    company: Nova Chemicals Inc., Calgary, AB
+    company: Borouge International (formerly Nova Chemicals Inc.), Calgary, AB
     details: |
-        - Leading control system modernization projects on polyethylene R&D equipment up to 30 years old — the same work a series of external contractors failed to deliver consistently before a permanent hire was brought in
-        - Automated a complex dimensional measurement workflow on a Mitutoyo CMM using VBA, converting a fully manual bench process to 90% automated — significantly increasing throughput and eliminating measurement inconsistency
-        - Developed a Python utility for bulk PLC tag read/write operations across thousands of data points, enabling rapid configuration and validation during new skid commissioning
-        - Managed external LabVIEW contractors tasked with rewriting legacy instrument control software — defining scope, reviewing deliverables, and integrating outputs into the broader control architecture
-        - Applied machinery safety standards (CSA Z432, ISO 13849) to bring legacy extrusion equipment up to current compliance, including hazard assessments, safety-rated circuit design, and control narrative development
+        - Spearheaded the architecture and design for a $1M control system replacement of a 30-year-old legacy system — including proposals and bid packages for third-party vendors — the same work a series of external contractors failed to deliver consistently before a permanent hire was brought in
+        - Reverse-engineered and rebuilt lost shutdown keys (cause-and-effect matrices) for legacy control systems, identifying logic errors and proposing fail-safe solutions
+        - Led controls-focused design reviews, HAZOPs, and LOPAs for polypropylene plant upgrades, ensuring mechanical equipment meets machinery safety standards (CSA Z432:23, ISO 13849)
+        - Collaborated with OT cybersecurity teams to segment and harden the plant network architecture in line with modern industrial cybersecurity standards
+        - Managed a legacy HVAC BMS and deployed a BACnet/Modbus converter to integrate modern air-compressor controllers into existing controls
+        - Programmed and executed in-house PLC upgrades, HMI development, and field device integration via Modbus TCP/IP (Rockwell, Siemens)
+        - Acted as controls SME for vendor installs and upgrades on extrusion machinery, holding their work to internal standards and signing off FAT/SAT
 
         
   - role: Automation Specialist
@@ -123,16 +123,12 @@ experiences:
     company: Cask Global Canning Solutions, Calgary, AB
     details: |
       Developing new automated products for the micro canning industry
-        - Developing CodeSys and TwinCAT based PLC systems for beverage canning machinery, taking a design from concept to commercialization
-        - Developed software utilities (using Powershell and C#) to interact with PLCs for data staging, configuration, and system commissioning 
-        - Designed and deployed an IoT data collection system for data acquisition and analysis
-        - Developed software release processes and associated documentation for version management and site deployments
-        - Conducted hazard reviews and functional safety assessments to support CE certification for OEM machinery
         - Designed and commissioned CodeSys and TwinCAT PLC systems for high-speed beverage canning machinery, taking products from concept through to commercial deployment
-        - Built and deployed an IIoT data platform across a 10-site pilot, giving customers real-time fill volume metrics and automated daily production reports — and providing the technical foundation for remote diagnostic access by the support team
-        - Developed C# and PowerShell tooling to automate PLC configuration and data staging during commissioning, reducing manual setup time and eliminating configuration errors across deployments
+        - Built and deployed an IIoT data platform across a 10-site pilot, giving customers real-time fill-volume metrics and automated daily production reports — and the technical foundation for remote diagnostic access by the support team
+        - Developed C# and PowerShell tooling to automate PLC configuration and data staging during commissioning, cutting in-house deployment time from 12 hours to 1 hour at 100% configuration consistency
+        - Rewrote legacy PLC code to integrate modern servos and HMIs, and authored software release processes and electrical documentation for version management and site deployments
         - Designed and tuned motion control profiles for high-speed packaging machinery, optimizing acceleration curves to reduce mechanical shock and extend component life
-        - Led CE certification process including hazard reviews and functional safety assessments for OEM machinery sold into international markets
+        - Led CE certification — hazard reviews and functional safety assessments — for OEM machinery sold into international markets
 
 
   - role: Electrical Specialist
@@ -140,6 +136,7 @@ experiences:
     company: Propak Systems Ltd., Airdrie, AB
     details: | 
         - Authored control narratives, functional design specifications, and technical bid packages for modular heavy process plants with capital budgets exceeding $500MM
+        - Designed electrical and control proposals for fire-safety systems and power distribution for a remote northern Alaska plant facility
         - Conducted design reviews for electrical and automation systems against client specifications and Alberta regulatory requirements
 
 
@@ -159,6 +156,7 @@ experiences:
     company: Propak Systems Ltd., Airdrie, AB
     details: |
         - Commissioned three major O&G process facilities end-to-end on DeltaV and Rockwell FactoryTalk — from control narrative development through loop checking, FAT, SAT, and startup support on assets operating at up to 80,000 BPD
+        - Handled controls integration for large industrial screw-refrigeration compressors and fluid-distribution networks — shutdown keys, sensor redundancy, and ISO 13849 functional safety on mission-critical cooling
         - Led the planning and execution of a control system upgrade and capacity expansion at an LNG facility — scoping the project, coordinating with operations during a live plant, and delivering the expanded system through to restart
         - Redesigned a plant fiber optic network after the original engineering design proved unworkable during commissioning — diagnosed the fault, developed a revised architecture, and implemented it under project schedule pressure
         - Designed and deployed virtualized server environments (Hyper-V, VMware) for high-availability DCS and SCADA platforms on remote facility operations — specifying the architecture and configuring the systems from scratch
@@ -187,7 +185,7 @@ certifications:
     organization: TÜV NORD (Pilz)
     credentialid: 
     credentialurl: www.pilz.com/en-CA/trainings/articles/196783
-    credentialname: CSME
+    credentialname: CMSE®
     details: 
       
 
@@ -268,42 +266,39 @@ skills:
   title: Skills &amp; Proficiencies
 
   toolset:
-    
-  - name: Microsoft Office 
-    level: 95%  
 
-  - name: Windows 
+  - name: Mechanical & Cooling Controls Integration (refrigeration, HVAC/BMS, skids)
     level: 90%
-    
-  - name: Visual Basic (VBA)
-    level: 85%        
-    
-  - name: IT Networking
-    level: 70%
-    
-  - name: Linux
-    level: 70%
-    
-  - name: Electrical Design
+
+  - name: Industrial Protocols (Modbus TCP/IP, BACnet, EtherNet/IP, Profinet, OPC)
+    level: 95%
+
+  - name: Functional & Machine Safety (CSA Z432, ISO 13849, HAZOP, LOPA, CE)
+    level: 90%
+
+  - name: Cause-and-Effect / Shutdown Keys / Control Narratives / Sequence of Operations
+    level: 95%
+
+  - name: Commissioning (FAT / SAT / HAT, loop checking, startup)
+    level: 95%
+
+  - name: OT Cybersecurity & Network Segmentation
+    level: 75%
+
+  - name: Virtualization (Hyper-V, VMware vSphere)
+    level: 80%
+
+  - name: Powershell / C# / Python / VBA
+    level: 80%
+
+  - name: Electrical Design / AutoCAD Electrical
     level: 60%
-    
-  - name: AutoCAD 2D/Electrical
-    level: 50%
 
   - name: Fusion 3D
     level: 50%
-    
-  - name: Powershell/Bash
-    level: 45%        
 
-  - name: Docker
-    level: 40%
-    
-  - name: HTML5 & CSS
-    level: 35%     
-
-  - name: AI
-    level: 35%        
+  - name: Docker / Linux
+    level: 55%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
