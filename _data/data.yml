@@ -79,13 +79,15 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-      13 years commissioning, integrating, and modernizing industrial control systems — DCS, PLC, SCADA, BMS, OT networks — across oil and gas, chemical research, warehouse robotics, and packaging machinery. I work at the seam between mechanical equipment, vendor skids, and master control architecture — making sure cooling loops, refrigeration compressors, fluid distribution, and packaged mechanical plant integrate deterministically, with redundancy and fail-safe behaviour intact, before anything ships to site.
+      13 years commissioning and supporting industrial control systems — DCS, PLC, SCADA, OT networks — across oil and gas, chemical research, warehouse robotics, and packaging machinery.
 
-      I've spent my career on both sides of the OEM relationship. At Propak I operated as the skid manufacturer *and* the client — building standardized, repeatable PLC architectures for our own modular deployments while pulling third-party packages (boilers, compressors, generators, gas processing) into unified DCS/SCADA. That means I know exactly where vendors cut corners, and how to lock down Modbus TCP/IP and BACnet interface requirements, scrutinize P&IDs, and validate I/O lists long before a skid leaves the shop.
+      A lot of what I do is integration work: getting vendor skids and mechanical equipment — compressors, refrigeration, cooling loops, packaged plants — to talk to the main control system and behave the way they're supposed to. At Propak I sat on both sides of that, building our own modular PLC packages and also pulling third-party skids into the site DCS/SCADA, so I have a decent sense of where vendors cut corners and what to nail down during the FAT before anything shows up on site.
 
-      Most of my work is on live, mission-critical assets that can't afford to stop — commissioning, capacity expansions, and intermittent failures that don't show up consistently enough for anyone else to catch. Licensed in Alberta (P.L.Eng.) and certified in machine safety (CMSE®), I work end-to-end: control narrative and cause-and-effect through FAT/SAT and startup, on Rockwell, DeltaV, Beckhoff TwinCAT, Siemens, and Ignition.
+      Most of my project work is on live plants that can't afford to stop — commissioning, upgrades, and tracking down the intermittent failures nobody else can pin down. Platforms I use regularly: Rockwell, DeltaV, Beckhoff TwinCAT, Siemens, Ignition.
 
-      Based in Calgary. Open to mission-critical / data-center integration, controls modernization, machine-safety compliance, and international project work.
+      Outside of work: Docker, web development, 3D printing, and whatever rabbit hole I'm currently in.
+
+      Based in Calgary. Open to international project work and consulting engagements.
 education:
   title: Education
   info:
@@ -109,13 +111,13 @@ experiences:
     time: 2024 - Present
     company: Borouge International (formerly Nova Chemicals Inc.), Calgary, AB
     details: |
-        - Spearheaded the architecture and design for a $1M control system replacement of a 30-year-old legacy system — including proposals and bid packages for third-party vendors — the same work a series of external contractors failed to deliver consistently before a permanent hire was brought in
-        - Reverse-engineered and rebuilt lost shutdown keys (cause-and-effect matrices) for legacy control systems, identifying logic errors and proposing fail-safe solutions
-        - Led controls-focused design reviews, HAZOPs, and LOPAs for polypropylene plant upgrades, ensuring mechanical equipment meets machinery safety standards (CSA Z432:23, ISO 13849)
-        - Collaborated with OT cybersecurity teams to segment and harden the plant network architecture in line with modern industrial cybersecurity standards
-        - Managed a legacy HVAC BMS and deployed a BACnet/Modbus converter to integrate modern air-compressor controllers into existing controls
-        - Programmed and executed in-house PLC upgrades, HMI development, and field device integration via Modbus TCP/IP (Rockwell, Siemens)
-        - Acted as controls SME for vendor installs and upgrades on extrusion machinery, holding their work to internal standards and signing off FAT/SAT
+        - Designed and scoped a $1M replacement for a 30-year-old control system, including the proposals and bid packages for outside vendors — work a string of contractors hadn't been able to land before they hired someone permanent
+        - Reverse-engineered and rebuilt lost shutdown keys (cause-and-effect matrices) for legacy systems, found logic errors in the originals, and proposed fail-safe fixes
+        - Ran controls-side design reviews, HAZOPs, and LOPAs for polypropylene plant upgrades against machinery safety standards (CSA Z432:23, ISO 13849)
+        - Worked with the OT cybersecurity team to segment and harden the plant network
+        - Took over a legacy HVAC BMS and dropped in a BACnet/Modbus converter to get modern air-compressor controllers talking to it
+        - Did in-house PLC upgrades, HMI work, and field device integration over Modbus TCP/IP (Rockwell, Siemens)
+        - Was the controls SME when vendors came in to work on the extrusion machinery — checked their work and signed off FAT/SAT
 
         
   - role: Automation Specialist
@@ -156,7 +158,7 @@ experiences:
     company: Propak Systems Ltd., Airdrie, AB
     details: |
         - Commissioned three major O&G process facilities end-to-end on DeltaV and Rockwell FactoryTalk — from control narrative development through loop checking, FAT, SAT, and startup support on assets operating at up to 80,000 BPD
-        - Handled controls integration for large industrial screw-refrigeration compressors and fluid-distribution networks — shutdown keys, sensor redundancy, and ISO 13849 functional safety on mission-critical cooling
+        - Handled the controls integration for large screw-refrigeration compressors and the fluid-distribution loops they fed — shutdown keys, sensor redundancy, ISO 13849 functional safety, all on cooling systems the plant couldn't lose
         - Led the planning and execution of a control system upgrade and capacity expansion at an LNG facility — scoping the project, coordinating with operations during a live plant, and delivering the expanded system through to restart
         - Redesigned a plant fiber optic network after the original engineering design proved unworkable during commissioning — diagnosed the fault, developed a revised architecture, and implemented it under project schedule pressure
         - Designed and deployed virtualized server environments (Hyper-V, VMware) for high-availability DCS and SCADA platforms on remote facility operations — specifying the architecture and configuring the systems from scratch
@@ -267,7 +269,7 @@ skills:
 
   toolset:
 
-  - name: Mechanical & Cooling Controls Integration (refrigeration, HVAC/BMS, skids)
+  - name: Controls Integration (refrigeration, compression, HVAC/BMS, skids)
     level: 90%
 
   - name: Industrial Protocols (Modbus TCP/IP, BACnet, EtherNet/IP, Profinet, OPC)
