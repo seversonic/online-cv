@@ -45,7 +45,7 @@ sidebar:
     title: PLCs
     info:
       - idiom: Rockwell/Allen Bradley
-        level: 6 years
+        level: 7 years
         
       - idiom: TwinCAT
         level: 6 years
@@ -57,10 +57,10 @@ sidebar:
         level: 5 years
         
       - idiom: GE/Emerson Rx3i
-        level: 1 year
+        level: 2 years
         
       - idiom: Siemens S7
-        level: 3 year
+        level: 3 years
 
 
   interests:
